@@ -1,4 +1,3 @@
-# brightbeam-api
 # Brightbeam API Program
 
 ## 1. Introduction
@@ -40,6 +39,8 @@ Before running the script, ensure the following:
 ### Option 1: Provide File Paths Dynamically
 
 You can specify the input files as arguments:
+ # file1_path = dublin-trees.json
+ # file2_path = dublin-property.csv
 
 ```sh
 ./brightbeam_api_run.sh <file1_path> <file2_path>
@@ -50,6 +51,7 @@ You can specify the input files as arguments:
 ```sh
 ./brightbeam_api_run.sh /home/user/dublin_trees.json /home/user/dublin-property.csv"
 ```
+# Make sure file_1 and file_2 is correct, first file should be JSON and second should CSV
 
 ### Option 2: Use Default (Hardcoded) File Paths
 
