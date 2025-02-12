@@ -85,7 +85,8 @@ output on console like this
 Properties with tall trees 41: average cost : €1095486.4668292683
 Properties with short trees 178: average cost : €543757.9113483146
 
-<img width="1480" alt="image" src="https://github.com/user-attachments/assets/e81c91f0-ea55-40b4-a5ae-89706d654ba5" />
+<img width="1501" alt="image" src="https://github.com/user-attachments/assets/65d9fb15-8ddf-4ad3-a8ff-4f8474c1d1d0" />
+
 
 
 
