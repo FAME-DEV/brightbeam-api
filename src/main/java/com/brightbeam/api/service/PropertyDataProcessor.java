@@ -109,7 +109,7 @@ public class PropertyDataProcessor {
 
 		log.info(String.format("Cost calculation completed. Tall trees: %d properties, Short trees: %d properties",
 				tallTreeCount, shortTreeCount));
-		log.info("Tall trees : €{} average cost , Short trees: €{} average cost",
+		log.info("Tall trees : €{} Average cost , Short trees: €{} average cost",
 				tallTreeAverage, shortTreeAverage);
 
 		return new PropertyAverages(tallTreeAverage, shortTreeAverage, tallTreeCount, shortTreeCount);
