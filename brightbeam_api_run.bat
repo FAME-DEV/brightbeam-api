@@ -1,7 +1,7 @@
 @echo off
 SETLOCAL
 
-mvn package
+#mvn package
 
 REM Default (hardcoded) file paths
 SET "DEFAULT_FILE1_PATH=C:\Users\user\default_data1.json"
@@ -27,6 +27,6 @@ SET FILE1_PATH=%FILE1_PATH%
 SET FILE2_PATH=%FILE2_PATH%
 
 REM Run the Java application
-java -jar target/brightbeam-api-0.0.1-SNAPSHOT.jar
+java -jar brightbeam-api-0.0.1-SNAPSHOT.jar
 
 ENDLOCAL

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mvn package
+#mvn package
 
 # Default (hardcoded) file paths
 DEFAULT_FILE1_PATH="/Users/waheedashraf/Downloads/dublin_trees.json"
@@ -27,4 +27,4 @@ export DUBLIN_PROPERTY_PATH
 
 
 # Run the Java application
-java -jar target/brightbeam-api-0.0.1.jar
+java -jar brightbeam-api-0.0.1.jar
